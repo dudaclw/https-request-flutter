@@ -1,0 +1,31 @@
+name: user_finder
+description: "Aplicativo para buscar usuários na API ReqRes"
+
+# Remove esta linha se quiser publicar no pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Opcional: Se quiser usar a fonte Poppins, descomente esta seção
+  # e adicione os arquivos da fonte na pasta fonts/
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: fonts/Poppins-Regular.ttf
