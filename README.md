@@ -1,16 +1,48 @@
-# treino
+# Atividade Avaliativa: Requisições em API com Flutter
 
-A new Flutter project.
+Uma aplicação em Flutter para buscar informações de usuários na API pública [ReqRes](https://reqres.in/). O aplicativo permite consultar dados de usuários por ID com tratamento de erros e exibição das informações.
 
-## Getting Started
+## 📱 Funcionalidades Principais
 
-This project is a starting point for a Flutter application.
+- **Busca de Usuário por ID**  
+  - Insira um ID entre 1 e 12
+  - Requisição à API ao clicar em "Buscar"
 
-A few resources to get you started if this is your first Flutter project:
+- **Exibição de Informações**  
+  - Nome completo do usuário
+  - Endereço de e-mail
+  - Avatar (foto de perfil)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **⚠ Tratamento de Erros**  
+  - Mensagens para IDs inválidos (fora do intervalo 1-12)
+  - Feedback para falhas de conexão/requisição
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 💻 Tecnologias Utilizadas
+
+| Tecnologia | Descrição |
+|------------|-----------|
+| Flutter | Framework para desenvolvimento multiplataforma |
+| Dart | Linguagem de programação |
+| http | Pacote para requisições HTTP |
+| ReqRes API | API pública para dados de teste |
+
+## 🚀 Instalação e Execução
+
+### Pré-requisitos
+- Flutter SDK instalado
+- Dispositivo/emulador configurado
+
+### Passo a passo
+
+1. **Clonar o repositório**
+   ```bash
+   git clone https://github.com/dudaclw/https-request-flutter.git
+    cd https-request-flutter
+   
+2. **Instalar dependências**
+   ```bash
+   flutter pub get
+
+3. **Executar o aplicativo**
+      ```bash
+   flutter run
